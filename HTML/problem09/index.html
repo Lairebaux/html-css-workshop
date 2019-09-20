@@ -1,7 +1,55 @@
 <!DOCTYPE html>
 <html>
   <body>
+    <div>
     <h1>Registration form</h1>
     <!-- Add form here -->
+    <label name="Username">Username</label>
+    <input name="Username" type="text" required>
+    <label>password</label>
+    <input name="password" type="text">
+  </div>
+  <div>
+    <label>Email</label>
+    <input name="email" type="text">
+    <div>Which is taxi do you require?</div>
+    <div>
+      <input name="Car" type="radio"> 
+      <label name="Car">Car</label>
+    </div>
+    <div>
+      <input name="Van" type="radio">
+      <label name="Van">Van</label>
+      
+    </div>
+    <div>
+      <input name="Tuk Tuk" type="radio">
+      <label name="Tuk Tuk">Tuk Tuk</label>
+    </div> 
+    <div>Extras</div>
+    <div>
+        <input name="Baby Seat" type="checkbox"> 
+        <label name="Baby Seat">Baby Seat</label>
+      </div>
+      <div>
+          <input name="Wheelchair Access" type="checkbox"> 
+          <label name="Wheelchair Access">Wheelchair Access</label>
+        </div>
+      <div>
+        <input name="Stock Tip" type="checkbox">
+        <label name="Stock Tip">Stock Tip</label>
+      </div> 
+      <div>
+        <label>Pickup</label>
+        <select>
+          <option value="Select One">Select One</option>
+        </select>
+      </div>
+      <div>
+        <label name="Special" type="text">Special</label>
+        <input name="Special" type="text" size=8>
+      </div>
+      <div><input type="submit"></div>
+  </div>
   </body>
 </html>
